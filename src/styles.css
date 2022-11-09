@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    display: flex;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 70px;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    width: 460px auto;
+    margin: 50px ;
+    padding: 20px;
+}
+
+.radio-buttons{
+    float: right;
+    margin: 40px;
+}
+
+.x-button{
+    float: right;
+    margin-right: -10px;
+}
+
